@@ -281,13 +281,16 @@ html[dir="rtl"] .browser-status-action {
 	clear: both;
 }
 
+
 #browserlist {
-	zoom: 1;
+zoom: 1;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
 }
 
 #browserlist li {
 	width: 230px;
-	float: left;
 	margin: 12px 0 0;
 }
 
